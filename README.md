@@ -1,5 +1,6 @@
-# Power Profile Switcher
-GNOME Shell extension to automatically switch between power profiles based on power supply
+# Power Profile Switcher for PopOS
+GNOME Shell extension to automatically switch between power profiles based on power supply.
+This for is updated to work with Pop!OS 22.04
 
 ## Settings
 ![Settings window](.github/img/settings.png)
@@ -11,26 +12,11 @@ When enabled, the extension will automatically switch to:
 ## Installation
 
 ### Dependencies
-This extension depends on `powerprofilesctl`. Install it with:
-```
-# Arch
-sudo pacman -S power-profiles-daemon
+This extension depends on system76-power
 
-# Ubuntu
-sudo apt install power-profiles-daemon
-
-# Fedora
-sudo dnf install power-profiles-daemon
-```
-
-Then you need to enable and start the systemd service
-```
-sudo systemctl enable power-profiles-daemon
-sudo systemctl start power-profiles-daemon
-```
 
 ### From Gnome Extensions store
-This extension can be found in the [store](https://extensions.gnome.org/extension/5575/power-profile-switcher/).
+tbd
 
 [<img src=".github/img/store.png" height="100" alt="Get it on GNOME Extensions">](https://extensions.gnome.org/extension/5575/power-profile-switcher/)
 
@@ -48,7 +34,7 @@ gnome-extensions enable power-profile-switcher@eliapasquali.github.io
 ```
 
 ## GNOME Version Support
-This extensions is developed and tested on Arch, with GNOME 43 on Wayland.
+tbd
 
 ## Contribution
 Contribution to this project are welcome
