@@ -8,7 +8,7 @@ import {ExtensionPreferences} from 'resource:///org/gnome/Shell/Extensions/js/ex
 const PROFILE_CHOICES = [
     'performance',
     'balanced',
-    'power-saver'
+    'battery'
 ];
 
 function bindAdwComboRow(comboRow, settings, key, map_) {
