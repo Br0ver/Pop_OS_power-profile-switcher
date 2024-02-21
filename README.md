@@ -18,7 +18,6 @@ This extension depends on system76-power
 ### From Gnome Extensions store
 tbd
 
-[<img src=".github/img/store.png" height="100" alt="Get it on GNOME Extensions">](https://extensions.gnome.org/extension/5575/power-profile-switcher/)
 
 ### Installation from source
 Clone the repo, pack and install the extension.
@@ -26,7 +25,7 @@ Clone the repo, pack and install the extension.
 git clone https://github.com/eliapasquali/power-profile-switcher
 cd power-profile-switcher
 gnome-extensions pack --extra-source=ui
-gnome-extensions install power-profile-switcher@eliapasquali.github.io.shell-extension.zip
+gnome-extensions install ...
 ```
 After this, the extensions is installed. In order to enable it run the following command or use the Extensions app.
 ```
